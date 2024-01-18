@@ -20,13 +20,13 @@ public class Swipe : MonoBehaviour
         if(Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Ended)
         {
             endTouchPosition = Input.GetTouch(0).position;
-            if(endTouchPosition.x < startTouchPosition.x)
+            if(endTouchPosition.x < startTouchPosition.x && endTouchPosition.y < startTouchPosition.y)
             {
                 Debug.Log("Right");
                 Right();
             }
 
-            if(endTouchPosition.x > startTouchPosition.x)
+            if(endTouchPosition.x > startTouchPosition.x && endTouchPosition.y < startTouchPosition.y)
             {
                 Debug.Log("Left");
                 Left();

@@ -7,8 +7,8 @@ using UnityEngine.UI;
 public class Swipe : MonoBehaviour
 {
     public GameObject Capsule; 
-    private Vector2 startTouchPosition;
-    private Vector2 endTouchPosition;
+    private Vector3 startTouchPosition;
+    private Vector3 endTouchPosition;
 
     private void Update() 
     {
@@ -31,14 +31,23 @@ public class Swipe : MonoBehaviour
                 Debug.Log("Left");
                 Left();
             }
+            if(endTouchPosition.y > startTouchPosition.y)
+            {
+                Up();
+            }
         }
     }
     private void Left()
     {
-        Capsule.transform.position = new Vector3(Capsule.transform.position.x +2, Capsule.transform.position.y, Capsule.transform.position.z);
+        Capsule.transform.position = new Vector3(Capsule.transform.position.x +4, Capsule.transform.position.y, Capsule.transform.position.z);
     }
     private void Right()
     {
-        Capsule.transform.position = new Vector3(Capsule.transform.position.x -2, Capsule.transform.position.y, Capsule.transform.position.z);
+        Capsule.transform.position = new Vector3(Capsule.transform.position.x -4, Capsule.transform.position.y, Capsule.transform.position.z);
+    }
+    private void Up()
+    {
+        Debug.Log("UP");
+        Capsule.transform.position = new Vector3 (Capsule.transform.position.x, Capsule.transform.position.y, Capsule.transform.position.z +4);
     }
 }

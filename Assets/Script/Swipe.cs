@@ -35,7 +35,7 @@ public class Swipe : MonoBehaviour
             {
                 Up();
             }
-            // if()
+            
         }
     }
     private void Left()

@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class HealthPlayer : MonoBehaviour
 {
-   private void OnColliderEnter(Collision other) 
+   private void OnTriggerEnter(Collider other) 
    {
-        if(other.gameObject.CompareTag("Ennemy"))
+        if(other.CompareTag("Ennemy"))
         {
             Debug.Log("Death");
         }

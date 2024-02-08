@@ -6,17 +6,13 @@ using UnityEngine.UI;
 
 public class Swipe : MonoBehaviour
 {
+    public GameObject platform;
     public GameObject Capsule; 
     private Vector3 startTouchPosition;
     private Vector3 endTouchPosition;
     int touchID;
     private void Update() 
     {
-        // foreach(Touch touch in Input.touches) 
-        // {
-            
-        // }
-
         if(Input.touchCount > 0 && touchID == -1 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
             startTouchPosition = Input.GetTouch(0).position;

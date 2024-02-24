@@ -45,7 +45,7 @@ public class Swipe : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.DownArrow)) Go(Vector3.back);
     }
 
-    private void Go(Vector3 direction) 
+    public void Go(Vector3 direction) 
     {
         Vector3 target = Capsule.transform.position + direction * 4;
         target.x = Mathf.Round(target.x);

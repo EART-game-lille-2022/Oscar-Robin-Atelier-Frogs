@@ -8,8 +8,7 @@ public class SpawnPlatform : MonoBehaviour
     public float timeRemaining =1.5f;
     public void SpawnPlatformMove()
     {
-        Instantiate(movingPlatform, new Vector3(13f, -0.5f, 12f), Quaternion.identity);        
-        Debug.Log("SpawnPlatform");
+        Destroy(Instantiate(movingPlatform, transform.position, transform.rotation), 10);          
     }
     private void Update() 
     {

@@ -8,7 +8,7 @@ public class SpawnPlatform : MonoBehaviour
     public float timeRemaining =1.5f;
     public void SpawnPlatformMove()
     {
-        Destroy(Instantiate(movingPlatform, transform.position, transform.rotation), 10);          
+        Destroy(Instantiate(movingPlatform, transform.position, transform.rotation), 5);          
     }
     private void Update() 
     {

@@ -120,7 +120,7 @@ Material:
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
     - _Fresnel_Power: 4
-    - _Fresnel_ThresHold: 0.3
+    - _Fresnel_ThresHold: 0.1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -141,8 +141,8 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Dark_Color: {r: 0.13866146, g: 0.1792453, b: 0.124288015, a: 1}
+    - _Dark_Color: {r: 0.33880258, g: 0.6226415, b: 0.26139194, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Light_Color: {r: 0.41170818, g: 0.735849, b: 0.31585974, a: 0}
+    - _Light_Color: {r: 0.31725514, g: 0.6981132, b: 0.20745817, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []

@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/HomeMenuFrogs.unity
     guid: 4298d09d287b9644ea49c76a32ef2aa1
   - enabled: 1
+    path: Assets/Scenes/LevelSelectionFrogs.unity
+    guid: 2ca2fd2a4be6aa64cb6eefe0c927852b
+  - enabled: 1
     path: Assets/Scenes/World1/Level_1_1.unity
     guid: 63bc4778e4b821e4186b54bc1b5a413f
   m_configObjects: {}

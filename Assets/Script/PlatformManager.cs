@@ -8,6 +8,7 @@ public class PlatformManager : MonoBehaviour
     public List<Rigidbody> bodiesOnMe;
     private void OnTriggerEnter(Collider other) 
     {
+        Debug.Log(other);
         Rigidbody bo = other.GetComponent<Rigidbody>();
         if(bo == null) bo = other.GetComponentInParent<Rigidbody>();
 

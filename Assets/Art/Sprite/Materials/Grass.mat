@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Grass
-  m_Shader: {fileID: -6465566751694194690, guid: 80540a0e62962cd449947354b8f8c444,
+  m_Shader: {fileID: -6465566751694194690, guid: b1ef4ce71d50bbe41b80bad7688b659f,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -114,7 +114,7 @@ Material:
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
     - _Fresnel_Power: 4
-    - _Fresnel_ThresHold: 2
+    - _Fresnel_ThresHold: 0.5
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -135,7 +135,7 @@ Material:
     m_Colors:
     - _BaseColor: {r: 0.40080482, g: 0.5943396, b: 0.20465466, a: 1}
     - _Color: {r: 0.4008048, g: 0.5943396, b: 0.20465463, a: 1}
-    - _Dark_Color: {r: 0.083837666, g: 0.3018868, b: 0.05268779, a: 1}
+    - _Dark_Color: {r: 0.1550207, g: 0.2735849, b: 0.13808295, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Light_Color: {r: 0.27184635, g: 0.5377358, b: 0.23082057, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}

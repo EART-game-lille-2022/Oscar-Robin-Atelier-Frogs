@@ -1,49 +1,9 @@
 fileFormatVersion: 2
-guid: cedd49df14fb29a438a4cf6c3f45de8e
+guid: f48e39bba8332e94e92437db1cec5b1a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Cuir
-    second: {fileID: 2100000, guid: da5870e8cc0261e4f9aeac2011cf5a56, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Cuir.001
-    second: {fileID: 2100000, guid: da5870e8cc0261e4f9aeac2011cf5a56, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Cuir.002
-    second: {fileID: 2100000, guid: da5870e8cc0261e4f9aeac2011cf5a56, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: FrogBody
-    second: {fileID: 2100000, guid: b43fec8f133bb954dadcdf2847c7d2fb, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: FrogBody02
-    second: {fileID: 2100000, guid: 3155af17212b4e34e926f255e85d689a, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: FrogBody03
-    second: {fileID: 2100000, guid: 0aef2a5fc30d43344a116b9de90ec847, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: FrogEye
-    second: {fileID: 2100000, guid: e9fcdb9d11902b8459bc2ad0fd756029, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: "M\xE9tal"
-    second: {fileID: 2100000, guid: 7a96ed8f693b02740aa595b226bbbde5, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

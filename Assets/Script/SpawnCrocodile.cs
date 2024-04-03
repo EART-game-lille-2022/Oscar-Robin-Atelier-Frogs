@@ -6,6 +6,7 @@ public class SpawnCrocodile : MonoBehaviour
 {
     public GameObject crocodile;
     public float timeRemaining = 10f;
+    public bool playerDead = false;
     public void SpawnCrocodileObject()
     {
         Destroy(Instantiate(crocodile, transform.position,transform.rotation), 5);
@@ -20,6 +21,13 @@ public class SpawnCrocodile : MonoBehaviour
         {
             SpawnCrocodileObject();
             timeRemaining = 10f;
+        }
+    }
+    public void ResetSpawnerCrocodile()
+    {
+        if(playerDead == true)
+        {
+            
         }
     }
 }

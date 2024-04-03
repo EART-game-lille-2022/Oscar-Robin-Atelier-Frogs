@@ -8,14 +8,21 @@ public class AnimBlockRepeat : MonoBehaviour
     public float delay = 0;
     // public float delayPerIndex = 1;
     public float[] delaysPattern;
-    public Animator animator;
+    // public Animator animator;
+    public Animator[] animators;
+    int prefabIndex;
+
     void Start() {
-        if(animator) {
-            AnimatorClipInfo info = animator.GetCurrentAnimatorClipInfo(0)[0];
-            animator.Play(info.clip.name, -1, Mathf.Repeat(-delay / info.clip.length, 1));
+        if(animators.Length > 0) {
+            AnimatorClipInfo info = animators[prefabIndex].GetCurrentAnimatorClipInfo(0)[0];
+            animators[prefabIndex].Play(info.clip.name, -1, Mathf.Repeat(-delay / info.clip.length, 1));
             float d = delay;
             for(int i = 1; i < count; i++) {
-                GameObject go = GameObject.Instantiate(animator.gameObject, animator.transform.position, animator.transform.rotation, animator.transform.parent);
+                prefabIndex ++;
+                if(prefabIndex >= animators.Length)
+                    prefabIndex = 0;
+
+                GameObject go = GameObject.Instantiate(animators[prefabIndex].gameObject, animators[prefabIndex].transform.position, animators[prefabIndex].transform.rotation, animators[prefabIndex].transform.parent);
                 Animator a = go.GetComponent<Animator>();
                 info = a.GetCurrentAnimatorClipInfo(0)[0];
 

@@ -5,18 +5,12 @@ using System.Timers;
 
 public class SwitchSpawner : MonoBehaviour
 {
-    public GameObject Spawner;
-    public GameObject platformSpawner;
-    public GameObject crocodileSpawner;
+    public Transform crocodileSpawnPosition;
+    public Transform platformSpawnPosition;
     public SpawnPlatform spawnPlatform;
     public SpawnCrocodile spawnCrocodile;
     private float countdownTime = 5f;
 
-    private void Update() 
-    {
-        platformSpawner.transform.position = Spawner.transform.position;
-        crocodileSpawner.transform.position = Spawner.transform.position;
-    }
     private void Start()
     {
         StartCoroutine(CallFunctions());
@@ -35,11 +29,13 @@ public class SwitchSpawner : MonoBehaviour
 
     private void FunctionA()
     {
+        crocodileSpawnPosition.position = this.transform.position;
         spawnCrocodile.SpawnCrocodileObject();
     }
 
     private void FunctionB()
     {
+        platformSpawnPosition.position = this.transform.position;
         spawnPlatform.SpawnPlatformMove();
     }
 }

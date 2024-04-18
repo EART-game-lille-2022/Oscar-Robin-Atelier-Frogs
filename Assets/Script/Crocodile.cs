@@ -27,12 +27,12 @@ public class Crocodile : MonoBehaviour
     Vector3 startPos;
     private void Start() 
     {
-        startPos = transform.position;
+        startPos = transform.localPosition;
         lastPos = transform.position;
         
-        // transform.DOMoveX(-20f, 5f);
-        // Invoke("AfterTween", 2);
-        // AfterTween();
+        transform.DOMoveX(-20f, 5f);
+        Invoke("AfterTween", 2);
+        AfterTween();
     }
     void AfterTween() {
         transform.position = startPos;

@@ -75,6 +75,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe413d6935725624e918771d0fcba701, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToShake: {fileID: 0}
   shakeMagnitude: 0.1
-  shakeDuration: 2
+  shakeDuration: 0.6

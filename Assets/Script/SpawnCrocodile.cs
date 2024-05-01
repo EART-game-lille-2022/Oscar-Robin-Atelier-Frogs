@@ -5,7 +5,8 @@ using UnityEngine;
 public class SpawnCrocodile : MonoBehaviour
 {
     public GameObject crocodile;
-    public float timeRemaining = 10f;
+    public float timeRemaining;
+    public bool playerDead = false;
     public void SpawnCrocodileObject()
     {
         Destroy(Instantiate(crocodile, transform.position,transform.rotation), 5);
@@ -19,7 +20,14 @@ public class SpawnCrocodile : MonoBehaviour
         if(timeRemaining <=0)
         {
             SpawnCrocodileObject();
-            timeRemaining = 10f;
+            timeRemaining = 6f;
+        }
+    }
+    public void ResetSpawnerCrocodile()
+    {
+        if(playerDead == true)
+        {
+            
         }
     }
 }

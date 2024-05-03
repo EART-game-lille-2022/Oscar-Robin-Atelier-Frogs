@@ -2550,6 +2550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 828b91ea58f4e8640aa688950c406879, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  frogs: {fileID: 2826415187480641754}
   Capsule: {fileID: 5793659925368383506}
   canJump: 1
   _onJump:
@@ -3829,6 +3830,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd12964cf2fb06941a74c598ac1dbbd5, type: 3}
+--- !u!1 &2826415187480641754 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7158277293743196036, guid: fd12964cf2fb06941a74c598ac1dbbd5,
+    type: 3}
+  m_PrefabInstance: {fileID: 2826415187480641753}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &5793659925368383506 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8601390003638118603, guid: fd12964cf2fb06941a74c598ac1dbbd5,
@@ -3910,8 +3917,8 @@ SceneRoots:
   - {fileID: 330585546}
   - {fileID: 410087041}
   - {fileID: 832575519}
-  - {fileID: 2826415187480641753}
   - {fileID: 1888843465}
   - {fileID: 2122715967}
   - {fileID: 1209460230}
   - {fileID: 1636260298}
+  - {fileID: 2826415187480641753}

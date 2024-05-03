@@ -271,6 +271,7 @@ GameObject:
   - component: {fileID: 136435794}
   - component: {fileID: 136435793}
   - component: {fileID: 136435792}
+  - component: {fileID: 136435795}
   m_Layer: 5
   m_Name: Exit
   m_TagString: Untagged
@@ -287,7 +288,7 @@ RectTransform:
   m_GameObject: {fileID: 136435790}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 109735394}
@@ -392,6 +393,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 136435790}
   m_CullTransparentMesh: 1
+--- !u!114 &136435795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136435790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 237e6ff6ec9091d42b32f1e7bfebd07c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &223087556
 GameObject:
   m_ObjectHideFlags: 0
@@ -530,6 +543,7 @@ GameObject:
   - component: {fileID: 240970313}
   - component: {fileID: 240970312}
   - component: {fileID: 240970311}
+  - component: {fileID: 240970314}
   m_Layer: 5
   m_Name: Option
   m_TagString: Untagged
@@ -546,7 +560,7 @@ RectTransform:
   m_GameObject: {fileID: 240970309}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1749681149}
@@ -663,6 +677,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 240970309}
   m_CullTransparentMesh: 1
+--- !u!114 &240970314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240970309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 237e6ff6ec9091d42b32f1e7bfebd07c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &319942072
 GameObject:
   m_ObjectHideFlags: 0
@@ -1826,6 +1852,7 @@ GameObject:
   - component: {fileID: 1560882068}
   - component: {fileID: 1560882067}
   - component: {fileID: 1560882070}
+  - component: {fileID: 1560882071}
   m_Layer: 5
   m_Name: Play
   m_TagString: Untagged
@@ -1842,7 +1869,7 @@ RectTransform:
   m_GameObject: {fileID: 1560882065}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1542224651}
@@ -1960,6 +1987,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameScene: LevelSelectionFrogs
+--- !u!114 &1560882071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560882065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 237e6ff6ec9091d42b32f1e7bfebd07c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1665084522
 GameObject:
   m_ObjectHideFlags: 0

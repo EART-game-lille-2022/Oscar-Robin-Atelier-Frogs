@@ -4,14 +4,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using UnityEngine.Events;
 
 public class Swipe : MonoBehaviour
 {
-    public GameObject platform;
     public GameObject Capsule; 
+    public bool canJump = true;
     private Vector3 startTouchPosition;
     private Vector3 endTouchPosition;
     int touchID;
+    [SerializeField] private UnityEvent _onJump;
+
     private void Update() 
     {
         if(Input.touchCount > 0 && touchID == -1 && Input.GetTouch(0).phase == TouchPhase.Began)
@@ -45,12 +48,26 @@ public class Swipe : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.UpArrow)) Go(Vector3.forward);
         if(Input.GetKeyDown(KeyCode.DownArrow)) Go(Vector3.back);
     }
-
     public void Go(Vector3 direction) 
     {
-        Vector3 target = Capsule.transform.position + direction * 4;
-        target.x = Mathf.Round(target.x);
-        target.z = Mathf.Round(target.z);
-        Capsule.transform.position = target;
+        if(canJump == false)
+        {
+            return;
+        }
+        _onJump.Invoke();
+        // Vector3 target = Capsule.transform.position + direction * 4;
+        Capsule.transform.DOMove(Capsule.transform.position + direction * 4, 1f);
+        // target.x = Mathf.Round(target.x);
+        // target.z = Mathf.Round(target.z);
+        // Capsule.transform.position = target;
+        canJump = false;
+        StartCoroutine(cooldown());
+        //Call Coroutine Here
+    }
+    public IEnumerator cooldown()
+    {
+        yield return new WaitForSeconds(1f);
+        canJump = true;
+
     }
 }

@@ -40,6 +40,16 @@ public class TimerPlatform : MonoBehaviour
     public void StartShake()
     {
         shakeTimer = shakeDuration;
-        Destroy(objectToShake, shakeDuration);
+        objectToShake.SetActive (false);
+        StartCoroutine(Cooldown());
+    }
+    public IEnumerator Cooldown()
+    {
+        yield return new WaitForSeconds(5);
+        RespawnPlatform();
+    }
+    public void RespawnPlatform()
+    {
+        objectToShake.SetActive(true);
     }
 }

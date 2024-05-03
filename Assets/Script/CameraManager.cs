@@ -7,7 +7,7 @@ public class CameraManager : MonoBehaviour
     public GameObject player;
     private void Update() 
     {
-        transform.position = new Vector3(player.transform.position.x, player.transform.position.y + 10, player.transform.position.z -8);
+        transform.position = new Vector3(player.transform.position.x, player.transform.position.y + 12, player.transform.position.z - 8);
     }
     private void Start() 
     {

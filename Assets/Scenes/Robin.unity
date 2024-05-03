@@ -2563,6 +2563,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Champi
       objectReference: {fileID: 0}
+    - target: {fileID: 8414638567250725723, guid: d5fc397c48e045d4fbae573fd73af58b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9191034975233266145, guid: d5fc397c48e045d4fbae573fd73af58b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2821,6 +2826,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Zozio
+      objectReference: {fileID: 0}
+    - target: {fileID: 9013485974439912087, guid: 1af60946bc909dd47bb8fe8c69450d1d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

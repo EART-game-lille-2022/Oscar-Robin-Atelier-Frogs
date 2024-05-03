@@ -8,6 +8,7 @@ using UnityEngine.Events;
 
 public class Swipe : MonoBehaviour
 {
+    public GameObject frogs;
     public GameObject Capsule; 
     public bool canJump = true;
     private Vector3 startTouchPosition;
@@ -55,14 +56,10 @@ public class Swipe : MonoBehaviour
             return;
         }
         _onJump.Invoke();
-        // Vector3 target = Capsule.transform.position + direction * 4;
+        frogs.transform.LookAt(new Vector3(Capsule.transform.position.x + direction.x, Capsule.transform.position.y, Capsule.transform.position.z+  direction.z), Vector3.up);
         Capsule.transform.DOMove(Capsule.transform.position + direction * 4, 1f);
-        // target.x = Mathf.Round(target.x);
-        // target.z = Mathf.Round(target.z);
-        // Capsule.transform.position = target;
         canJump = false;
         StartCoroutine(cooldown());
-        //Call Coroutine Here
     }
     public IEnumerator cooldown()
     {

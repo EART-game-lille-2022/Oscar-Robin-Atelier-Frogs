@@ -7,8 +7,8 @@ using DG.Tweening;
 
 public class Swipe : MonoBehaviour
 {
-    public GameObject platform;
     public GameObject Capsule; 
+    public bool canJump = true;
     private Vector3 startTouchPosition;
     private Vector3 endTouchPosition;
     int touchID;
@@ -45,12 +45,24 @@ public class Swipe : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.UpArrow)) Go(Vector3.forward);
         if(Input.GetKeyDown(KeyCode.DownArrow)) Go(Vector3.back);
     }
-
     public void Go(Vector3 direction) 
     {
+        if(canJump == false)
+        {
+            return;
+        }
         Vector3 target = Capsule.transform.position + direction * 4;
         target.x = Mathf.Round(target.x);
         target.z = Mathf.Round(target.z);
         Capsule.transform.position = target;
+        canJump = false;
+        StartCoroutine(cooldown());
+        //Call Coroutine Here
+    }
+    public IEnumerator cooldown()
+    {
+        yield return new WaitForSeconds(0.5f);
+        canJump = true;
+
     }
 }

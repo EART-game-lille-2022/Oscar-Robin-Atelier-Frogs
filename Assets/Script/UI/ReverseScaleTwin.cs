@@ -5,7 +5,11 @@ using DG.Tweening;
 public class ReverseScaleTwin : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
+    public void Start()
+    {
+        GrowUp();
+    }
+    public void GrowUp()
     {
         transform.DOScale(new Vector3(1, 1, 1) ,0.5f);
         print("Tween Complete");

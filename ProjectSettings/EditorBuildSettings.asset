@@ -26,4 +26,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/World1/Level_1_5.unity
     guid: 91de5127984214749b89bf93e5571cf3
+  - enabled: 1
+    path: Assets/Scenes/UI/Ui Fin de niveau/MenuFinDeNiveau1.unity
+    guid: 44b9788f34877c64a8a2629598ae6c8b
+  - enabled: 1
+    path: Assets/Scenes/UI/Ui Fin de niveau/MenuFinDeNiveau2.unity
+    guid: 81a2404b22e90b740999cbdbd42c92ea
+  - enabled: 1
+    path: Assets/Scenes/UI/Ui Fin de niveau/MenuFinDeNiveau3.unity
+    guid: 10af6dc40d316bf4a97d09237e127ba7
+  - enabled: 1
+    path: Assets/Scenes/UI/Ui Fin de niveau/MenuFinDeNiveau4.unity
+    guid: 531a0e0b03d4f0646ac8287f11938e81
+  - enabled: 1
+    path: Assets/Scenes/UI/Ui Fin de niveau/MenuFinDeNiveau5.unity
+    guid: bdbc88c1df66a5843ab2c282191097ca
   m_configObjects: {}

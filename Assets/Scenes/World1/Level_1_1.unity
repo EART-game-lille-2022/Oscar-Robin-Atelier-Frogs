@@ -4055,6 +4055,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1888843465}
     m_Modifications:
+    - target: {fileID: 3882698302710144905, guid: e9d64959b4bc79143b93e79396715b11,
+        type: 3}
+      propertyPath: SceneName
+      value: MenuFinDeNiveau1
+      objectReference: {fileID: 0}
     - target: {fileID: 6027762355550278419, guid: e9d64959b4bc79143b93e79396715b11,
         type: 3}
       propertyPath: m_LocalPosition.x

@@ -139,7 +139,7 @@ PrefabInstance:
     - target: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.7
+      value: -1.4
       objectReference: {fileID: 0}
     - target: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
         type: 3}
@@ -387,7 +387,7 @@ PrefabInstance:
     - target: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.7
+      value: -1.4
       objectReference: {fileID: 0}
     - target: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
         type: 3}
@@ -454,7 +454,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 224336064}
-  - component: {fileID: 224336067}
   - component: {fileID: 224336066}
   - component: {fileID: 224336065}
   m_Layer: 0
@@ -543,14 +542,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &224336067
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 224336063}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &237962232
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -567,7 +558,7 @@ PrefabInstance:
     - target: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.7
+      value: -1.4
       objectReference: {fileID: 0}
     - target: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
         type: 3}
@@ -641,7 +632,7 @@ PrefabInstance:
     - target: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.7
+      value: -1.4
       objectReference: {fileID: 0}
     - target: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
         type: 3}
@@ -702,7 +693,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 277702536}
-  - component: {fileID: 277702535}
   - component: {fileID: 277702534}
   - component: {fileID: 277702533}
   m_Layer: 0
@@ -775,14 +765,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &277702535
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 277702532}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &277702536
 Transform:
   m_ObjectHideFlags: 0
@@ -808,7 +790,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 285568578}
-  - component: {fileID: 285568581}
   - component: {fileID: 285568580}
   - component: {fileID: 285568579}
   m_Layer: 0
@@ -897,14 +878,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &285568581
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 285568577}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &295263073
 GameObject:
   m_ObjectHideFlags: 0
@@ -914,7 +887,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 295263074}
-  - component: {fileID: 295263077}
   - component: {fileID: 295263076}
   - component: {fileID: 295263075}
   m_Layer: 0
@@ -1003,14 +975,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &295263077
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 295263073}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &306099698
 GameObject:
   m_ObjectHideFlags: 0
@@ -1020,7 +984,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 306099699}
-  - component: {fileID: 306099702}
   - component: {fileID: 306099701}
   - component: {fileID: 306099700}
   m_Layer: 0
@@ -1109,14 +1072,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &306099702
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 306099698}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1284,7 +1239,7 @@ PrefabInstance:
     - target: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.7
+      value: -1.4
       objectReference: {fileID: 0}
     - target: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
         type: 3}
@@ -1358,7 +1313,7 @@ PrefabInstance:
     - target: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.7
+      value: -1.4
       objectReference: {fileID: 0}
     - target: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
         type: 3}
@@ -1565,7 +1520,7 @@ PrefabInstance:
     - target: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.7
+      value: -1.4
       objectReference: {fileID: 0}
     - target: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
         type: 3}
@@ -1644,7 +1599,7 @@ PrefabInstance:
     - target: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.7
+      value: -1.4
       objectReference: {fileID: 0}
     - target: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
         type: 3}
@@ -1711,7 +1666,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 492740099}
-  - component: {fileID: 492740102}
   - component: {fileID: 492740101}
   - component: {fileID: 492740100}
   m_Layer: 0
@@ -1800,14 +1754,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &492740102
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 492740098}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &522546559
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1824,7 +1770,7 @@ PrefabInstance:
     - target: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.7
+      value: -1.4
       objectReference: {fileID: 0}
     - target: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
         type: 3}
@@ -1891,7 +1837,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 596629206}
-  - component: {fileID: 596629209}
   - component: {fileID: 596629208}
   - component: {fileID: 596629207}
   m_Layer: 0
@@ -1980,14 +1925,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &596629209
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 596629205}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &602264359
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2004,7 +1941,7 @@ PrefabInstance:
     - target: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.7
+      value: -1.4
       objectReference: {fileID: 0}
     - target: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
         type: 3}
@@ -2071,7 +2008,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 647371317}
-  - component: {fileID: 647371320}
   - component: {fileID: 647371319}
   - component: {fileID: 647371318}
   m_Layer: 0
@@ -2160,14 +2096,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &647371320
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 647371316}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &774496395 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
@@ -2323,7 +2251,7 @@ PrefabInstance:
     - target: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.7
+      value: -1.4
       objectReference: {fileID: 0}
     - target: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
         type: 3}
@@ -2397,7 +2325,7 @@ PrefabInstance:
     - target: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.7
+      value: -1.4
       objectReference: {fileID: 0}
     - target: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
         type: 3}
@@ -2558,7 +2486,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1093862716}
-  - component: {fileID: 1093862719}
   - component: {fileID: 1093862718}
   - component: {fileID: 1093862717}
   m_Layer: 0
@@ -2647,14 +2574,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1093862719
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1093862715}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1116443869
 GameObject:
   m_ObjectHideFlags: 0
@@ -2664,7 +2583,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1116443873}
-  - component: {fileID: 1116443872}
   - component: {fileID: 1116443871}
   - component: {fileID: 1116443870}
   m_Layer: 0
@@ -2737,14 +2655,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1116443872
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1116443869}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1116443873
 Transform:
   m_ObjectHideFlags: 0
@@ -2844,7 +2754,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1261060737}
-  - component: {fileID: 1261060740}
   - component: {fileID: 1261060739}
   - component: {fileID: 1261060738}
   m_Layer: 0
@@ -2933,14 +2842,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1261060740
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1261060736}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1277954914
 GameObject:
   m_ObjectHideFlags: 0
@@ -2950,7 +2851,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1277954918}
-  - component: {fileID: 1277954917}
   - component: {fileID: 1277954916}
   - component: {fileID: 1277954915}
   m_Layer: 0
@@ -3023,14 +2923,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1277954917
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1277954914}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1277954918
 Transform:
   m_ObjectHideFlags: 0
@@ -3063,7 +2955,7 @@ PrefabInstance:
     - target: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.7
+      value: -1.4
       objectReference: {fileID: 0}
     - target: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
         type: 3}
@@ -3137,7 +3029,7 @@ PrefabInstance:
     - target: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.7
+      value: -1.4
       objectReference: {fileID: 0}
     - target: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
         type: 3}
@@ -3204,7 +3096,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1346065684}
-  - component: {fileID: 1346065687}
   - component: {fileID: 1346065686}
   - component: {fileID: 1346065685}
   m_Layer: 0
@@ -3293,14 +3184,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1346065687
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1346065683}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1424760518
 GameObject:
   m_ObjectHideFlags: 0
@@ -3460,8 +3343,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 2.3498511, z: 1}
+  m_Center: {x: 0, y: 0.6749258, z: 0}
 --- !u!23 &1636260296
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3541,7 +3424,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1637187538}
-  - component: {fileID: 1637187541}
   - component: {fileID: 1637187540}
   - component: {fileID: 1637187539}
   m_Layer: 0
@@ -3630,14 +3512,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1637187541
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1637187537}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1656162661
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3863,7 +3737,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1935536366}
-  - component: {fileID: 1935536369}
   - component: {fileID: 1935536368}
   - component: {fileID: 1935536367}
   m_Layer: 0
@@ -3952,14 +3825,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1935536369
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1935536365}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &2103621720
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3976,7 +3841,7 @@ PrefabInstance:
     - target: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.7
+      value: -1.4
       objectReference: {fileID: 0}
     - target: {fileID: 119370216717532240, guid: a9a0d33eade58bb489dcf6b02c32cdb0,
         type: 3}

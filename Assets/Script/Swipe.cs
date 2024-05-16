@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 using UnityEngine.Events;
+using UnityEngine.InputSystem;
 
 public class Swipe : MonoBehaviour
 {
@@ -18,13 +19,13 @@ public class Swipe : MonoBehaviour
 
     private void Update() 
     {
-        if(Input.touchCount > 0 && touchID == -1 && Input.GetTouch(0).phase == TouchPhase.Began)
+        if(Input.touchCount > 0 && touchID == -1 && Input.GetTouch(0).phase == UnityEngine.TouchPhase.Began)
         {
             startTouchPosition = Input.GetTouch(0).position;
             touchID = Input.GetTouch(0).fingerId;
         }
 
-        if(Input.touchCount > 0 && touchID == Input.GetTouch(0).fingerId && Input.GetTouch(0).phase == TouchPhase.Ended)
+        if(Input.touchCount > 0 && touchID == Input.GetTouch(0).fingerId && Input.GetTouch(0).phase == UnityEngine.TouchPhase.Ended)
         {
             touchID = -1;
             endTouchPosition = Input.GetTouch(0).position;
@@ -44,10 +45,10 @@ public class Swipe : MonoBehaviour
             
         }
 
-        if(Input.GetKeyDown(KeyCode.LeftArrow)) Go(Vector3.left);
-        if(Input.GetKeyDown(KeyCode.RightArrow)) Go(Vector3.right);
-        if(Input.GetKeyDown(KeyCode.UpArrow)) Go(Vector3.forward);
-        if(Input.GetKeyDown(KeyCode.DownArrow)) Go(Vector3.back);
+        if(Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.Q)|| Input.GetKeyDown(KeyCode.A)) Go(Vector3.left);
+        if(Input.GetKeyDown(KeyCode.RightArrow)|| Input.GetKeyDown(KeyCode.D)) Go(Vector3.right);
+        if(Input.GetKeyDown(KeyCode.UpArrow)|| Input.GetKeyDown(KeyCode.Z)|| Input.GetKeyDown(KeyCode.W)) Go(Vector3.forward);
+        if(Input.GetKeyDown(KeyCode.DownArrow)|| Input.GetKeyDown(KeyCode.S)) Go(Vector3.back);
     }
     public void Go(Vector3 direction) 
     {

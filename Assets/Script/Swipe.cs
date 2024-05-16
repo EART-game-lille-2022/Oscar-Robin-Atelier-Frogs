@@ -58,13 +58,13 @@ public class Swipe : MonoBehaviour
         }
         _onJump.Invoke();
         frogs.transform.LookAt(new Vector3(Capsule.transform.position.x + direction.x, Capsule.transform.position.y, Capsule.transform.position.z+  direction.z), Vector3.up);
-        Capsule.transform.DOMove(Capsule.transform.position + direction * 4, 1f);
+        Capsule.transform.DOMove(Capsule.transform.position + direction * 4, 0.8f);
         canJump = false;
         StartCoroutine(cooldown());
     }
     public IEnumerator cooldown()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1.3f);
         canJump = true;
 
     }

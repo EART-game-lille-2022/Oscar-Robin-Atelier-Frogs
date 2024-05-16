@@ -16,7 +16,7 @@ public class AnimationFrogs : MonoBehaviour
 
     IEnumerator JumpAnimation() {
         _frogAnimator.SetBool("jump", true);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.8f);
         _frogAnimator.SetBool("jump", false);
     }
 }

@@ -41,7 +41,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3578935291569257227}
-  - component: {fileID: 6001758591346843177}
   - component: {fileID: 9212026588220223382}
   - component: {fileID: 7143020308370604219}
   m_Layer: 0
@@ -67,29 +66,6 @@ Transform:
   - {fileID: 8409116606659575755}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &6001758591346843177
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8601390003638118603}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &9212026588220223382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -141,6 +117,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grenouille 101
+      objectReference: {fileID: 0}
+    - target: {fileID: 2523518132035300996, guid: 2ff6d1579f159854c98e5fe714f01f4b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 2904407185495225406, guid: 2ff6d1579f159854c98e5fe714f01f4b,
         type: 3}

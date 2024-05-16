@@ -64,7 +64,7 @@ public class Swipe : MonoBehaviour
     }
     public IEnumerator cooldown()
     {
-        yield return new WaitForSeconds(0.8f);
+        yield return new WaitForSeconds(2f);
         canJump = true;
 
     }

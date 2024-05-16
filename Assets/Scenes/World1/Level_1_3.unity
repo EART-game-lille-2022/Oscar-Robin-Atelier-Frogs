@@ -2021,10 +2021,10 @@ PrefabInstance:
       propertyPath: capsule
       value: 
       objectReference: {fileID: 5793659925368383506}
-    - target: {fileID: 4560398872461057036, guid: a5335bfa26712634d9ecbfd5cb036ea4,
+    - target: {fileID: 8122157352254518000, guid: a5335bfa26712634d9ecbfd5cb036ea4,
         type: 3}
-      propertyPath: jumpForce
-      value: 8
+      propertyPath: m_LocalPosition.y
+      value: -1.819
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

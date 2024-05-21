@@ -57,14 +57,24 @@ public class Swipe : MonoBehaviour
             return;
         }
         _onJump.Invoke();
-        frogs.transform.LookAt(new Vector3(Capsule.transform.position.x + direction.x, Capsule.transform.position.y, Capsule.transform.position.z+  direction.z), Vector3.up);
-        Capsule.transform.DOMove(Capsule.transform.position + direction * 4, 0.8f);
+        // Vector3 target = new Vector3(Capsule.transform.position.x + direction.x, Capsule.transform.position.y, Capsule.transform.position.z+  direction.z);
+        Vector3 aimed = Capsule.transform.position + direction * 4;
+        Vector3 target = aimed;
+        target = target / 4;
+        target.x = MathF.Round(target.x);
+        target.z = MathF.Round(target.z);
+        target = target * 4;
+        if((aimed-target).sqrMagnitude > 1) target = aimed;
+
+        frogs.transform.LookAt(target, Vector3.up);
+        Capsule.transform.DOMove(target, 0.8f);
         canJump = false;
         StartCoroutine(cooldown());
     }
     public IEnumerator cooldown()
     {
-        yield return new WaitForSeconds(1.3f);
+        // yield return new WaitForSeconds(1.3f);
+        yield return new WaitForSeconds(.1f);
         canJump = true;
 
     }

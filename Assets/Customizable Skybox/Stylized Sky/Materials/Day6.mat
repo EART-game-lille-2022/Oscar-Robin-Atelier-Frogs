@@ -59,8 +59,8 @@ Material:
     - _Horizon: {r: 1, g: 0, b: 0.7466021, a: 1}
     - _HorizonLineColor: {r: 0.26886794, g: 0.3584906, b: 0.28198925, a: 1}
     - _Sky: {r: 1, g: 0, b: 0, a: 1}
-    - _SkyGradientBottom: {r: 0.32983267, g: 0.6415094, b: 0.5873373, a: 1}
-    - _SkyGradientTop: {r: 0.09158063, g: 0.9245283, b: 0.7732528, a: 1}
+    - _SkyGradientBottom: {r: 0.26067996, g: 0.5471698, b: 0.4970341, a: 1}
+    - _SkyGradientTop: {r: 0.38203096, g: 0.9528302, b: 0.8483177, a: 1}
     - _SubHorizonColor: {r: 0, g: 0, b: 0, a: 1}
     - _SunDiscColor: {r: 1, g: 1, b: 1, a: 1}
     - _SunHaloColor: {r: 0.8632076, g: 1, b: 0.9336936, a: 1}

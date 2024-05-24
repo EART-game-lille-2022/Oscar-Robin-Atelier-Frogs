@@ -70,11 +70,12 @@ public class Swipe : MonoBehaviour
         Capsule.transform.DOMove(target, 0.8f);
         canJump = false;
         StartCoroutine(cooldown());
+        Debug.Log("cooldown");
     }
     public IEnumerator cooldown()
     {
         // yield return new WaitForSeconds(1.3f);
-        yield return new WaitForSeconds(.1f);
+        yield return new WaitForSeconds(0.9f);
         canJump = true;
 
     }

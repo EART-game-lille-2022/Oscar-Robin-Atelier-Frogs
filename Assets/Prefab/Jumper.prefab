@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4050912948699465675}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -71,6 +71,30 @@ MonoBehaviour:
   jumpHeight: 8
   jumpDuration: 0.5
   jumpForce: 8
+  jump:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1097381362887648017
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -92,7 +116,7 @@ PrefabInstance:
     - target: {fileID: 9191034975233266145, guid: d5fc397c48e045d4fbae573fd73af58b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.97
+      value: -1.819
       objectReference: {fileID: 0}
     - target: {fileID: 9191034975233266145, guid: d5fc397c48e045d4fbae573fd73af58b,
         type: 3}

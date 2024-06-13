@@ -77,7 +77,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shakeMagnitude: 0.1
-  shakeDuration: 1.5
+  shakeDuration: 2
 --- !u!1001 &1330962838547201103
 PrefabInstance:
   m_ObjectHideFlags: 0

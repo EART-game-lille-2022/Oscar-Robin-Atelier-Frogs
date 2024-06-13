@@ -4222,7 +4222,7 @@ GameObject:
   - component: {fileID: 2297219983667883465}
   - component: {fileID: 4036819757757044995}
   m_Layer: 0
-  m_Name: Sacrifice Frogs
+  m_Name: Grenouille 101
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4240,7 +4240,7 @@ GameObject:
   - component: {fileID: 2297219982931304862}
   - component: {fileID: 4036819759170082132}
   m_Layer: 0
-  m_Name: Sacrifice Frogs 2
+  m_Name: Grenouille 101 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

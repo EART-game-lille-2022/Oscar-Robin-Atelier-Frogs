@@ -30,19 +30,20 @@ public class Crocodile : MonoBehaviour
         startPos = transform.localPosition;
         lastPos = transform.position;
         
-        transform.DOMoveX(-20f, 5f);
+        transform.DOMoveX(-40f, 10f);
         Invoke("AfterTween", 2);
         AfterTween();
     }
     void AfterTween() {
         transform.position = startPos;
-        transform.DOMoveX(-20f, 5f).OnComplete(AfterTween);
+        transform.DOMoveX(-40f, 10f).OnComplete(AfterTween);
     }
     Vector3 lastPos;
     private void Update() 
     {
-        if(transform.position.x < -20f)
+        if(transform.position.x <= -20f)
         {
+            Debug.Log("KillCroco");
             Destroy(gameObject);
         }
     }

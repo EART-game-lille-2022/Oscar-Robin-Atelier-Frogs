@@ -6244,7 +6244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 5793659925368383506}
-  spawnPoint: {fileID: 0}
+  NameScene: Level_2_3
 --- !u!65 &1380200549
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9109,7 +9109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 5793659925368383506}
-  spawnPoint: {fileID: 64618075}
+  NameScene: Level_2_3
 --- !u!65 &1933971628
 BoxCollider:
   m_ObjectHideFlags: 0

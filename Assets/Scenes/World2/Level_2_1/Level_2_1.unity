@@ -2327,6 +2327,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 277918620}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &298951044 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 621534972193222720, guid: 90798e68373ba854b93f752df85c9be5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1419699140}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &302782658
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7780,7 +7786,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 5793659925368383506}
-  spawnPoint: {fileID: 1424760518}
+  NameScene: Level_2_1
 --- !u!65 &1380200549
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7967,6 +7973,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SpawnerWithPattern
+      objectReference: {fileID: 0}
+    - target: {fileID: 2728796515758301559, guid: 90798e68373ba854b93f752df85c9be5,
+        type: 3}
+      propertyPath: objects.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2728796515758301559, guid: 90798e68373ba854b93f752df85c9be5,
+        type: 3}
+      propertyPath: objects.Array.data[3]
+      value: 
+      objectReference: {fileID: 298951044}
+    - target: {fileID: 2728796515758301559, guid: 90798e68373ba854b93f752df85c9be5,
+        type: 3}
+      propertyPath: delaysPattern.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2728796515758301559, guid: 90798e68373ba854b93f752df85c9be5,
+        type: 3}
+      propertyPath: delaysPattern.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2728796515758301559, guid: 90798e68373ba854b93f752df85c9be5,
+        type: 3}
+      propertyPath: delaysPattern.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2728796515758301559, guid: 90798e68373ba854b93f752df85c9be5,
+        type: 3}
+      propertyPath: delaysPattern.Array.data[2]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2728796515758301559, guid: 90798e68373ba854b93f752df85c9be5,
+        type: 3}
+      propertyPath: delaysPattern.Array.data[3]
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8400773739483162116, guid: 90798e68373ba854b93f752df85c9be5,
         type: 3}
@@ -9543,7 +9584,7 @@ PrefabInstance:
     - target: {fileID: 2503384782319676360, guid: c68e2669174805f4d8f81479e18525ef,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3222551137773889338, guid: c68e2669174805f4d8f81479e18525ef,
         type: 3}
@@ -11675,7 +11716,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 5793659925368383506}
-  spawnPoint: {fileID: 1424760518}
+  NameScene: Level_2_1
 --- !u!65 &1933971628
 BoxCollider:
   m_ObjectHideFlags: 0
